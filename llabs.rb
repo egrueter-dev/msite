@@ -4,5 +4,5 @@ require 'sinatra'
 #require 'slim'
 
 get '/' do
-  File.read(File.join('views', 'llabs.html'))
+  File.read('llabs.html')
 end
